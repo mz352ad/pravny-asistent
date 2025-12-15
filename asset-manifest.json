@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pravny-asistent/static/css/main.13a28eb5.css",
-    "main.js": "/pravny-asistent/static/js/main.04831fe9.js",
+    "main.js": "/pravny-asistent/static/js/main.f86c7320.js",
     "index.html": "/pravny-asistent/index.html",
     "main.13a28eb5.css.map": "/pravny-asistent/static/css/main.13a28eb5.css.map",
-    "main.04831fe9.js.map": "/pravny-asistent/static/js/main.04831fe9.js.map"
+    "main.f86c7320.js.map": "/pravny-asistent/static/js/main.f86c7320.js.map"
   },
   "entrypoints": [
     "static/css/main.13a28eb5.css",
-    "static/js/main.04831fe9.js"
+    "static/js/main.f86c7320.js"
   ]
 }

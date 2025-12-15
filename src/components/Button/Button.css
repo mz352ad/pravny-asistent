@@ -1,0 +1,111 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-medium);
+  border: none;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Variants */
+.btn--primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+.btn--primary:hover:not(:disabled) {
+  background-color: var(--color-primary-hover);
+}
+
+.btn--secondary {
+  background-color: transparent;
+  color: var(--color-text-main);
+  border: 1px solid var(--color-border);
+}
+
+.btn--secondary:hover:not(:disabled) {
+  background-color: var(--color-bg-card-hover);
+  border-color: var(--color-text-muted);
+}
+
+.btn--ghost {
+  background-color: transparent;
+  color: var(--color-text-secondary);
+}
+
+.btn--ghost:hover:not(:disabled) {
+  background-color: var(--color-bg-card-hover);
+  color: var(--color-text-main);
+}
+
+.btn--link {
+  background-color: transparent;
+  color: var(--color-primary);
+  padding: 0;
+}
+
+.btn--link:hover:not(:disabled) {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}
+
+/* Sizes */
+.btn--small {
+  font-size: var(--font-size-sm);
+  padding: var(--space-sm) var(--space-md);
+  min-height: 36px;
+}
+
+.btn--medium {
+  font-size: var(--font-size-base);
+  padding: var(--space-sm) var(--space-lg);
+  min-height: 44px;
+}
+
+.btn--large {
+  font-size: var(--font-size-lg);
+  padding: var(--space-md) var(--space-xl);
+  min-height: 52px;
+}
+
+/* Full width */
+.btn--full-width {
+  width: 100%;
+}
+
+/* Icon only */
+.btn--icon-only {
+  padding: var(--space-sm);
+  aspect-ratio: 1;
+}
+
+.btn--icon-only.btn--small {
+  padding: var(--space-xs);
+}
+
+.btn--icon-only.btn--large {
+  padding: var(--space-md);
+}
+
+/* Icon positioning */
+.btn__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.btn__text {
+  flex-shrink: 0;
+}

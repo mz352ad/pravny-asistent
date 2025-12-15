@@ -6,5 +6,5 @@ Tento repozitár obsahuje webový prototyp (HTML/CSS + JavaScript) vytvorený v 
 
 ## Odkazy
 
-- **Live web (GitHub Pages):** `<https://mz352ad.github.io/pravny-asistent/>`
-- **Video (max. 3 min, verejné):** `<https://youtu.be/nNw-j3FkDeE>`
+- **Live web (GitHub Pages):** `https://mz352ad.github.io/pravny-asistent/`
+- **Video (max. 3 min, verejné):** `https://youtu.be/nNw-j3FkDeE`
